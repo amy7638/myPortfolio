@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAzMTZfMjY0%2FMDAxNzEwNTg3NTYyOTkw.ZmLei_02dHqEAQlIp6A9918iIbcN6OdoGBgakW9Tt30g.qhUCQiGNd5qXXj1WP1-YsxZ7Lq9Lo-b5xZZk9DbY0WEg.JPEG%2FIMG_8250.jpg&type=sc960_832" alt="Your Photo" class="profile-photo">
+        <p>Hello! I'm [Your Name], a passionate developer/designer. Welcome to my portfolio!</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="path/to/project1.jpg" alt="Project 1">
+            <h3>Project Title 1</h3>
+            <p>Project description 1...</p>
+        </div>
+        <div class="project">
+            <img src="path/to/project2.jpg" alt="Project 2">
+            <h3>Project Title 2</h3>
+            <p>Project description 2...</p>
+        </div>
+        <div class="project">
+            <img src="path/to/project3.jpg" alt="Project 3">
+            <h3>Project Title 3</h3>
+            <p>Project description 3...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
